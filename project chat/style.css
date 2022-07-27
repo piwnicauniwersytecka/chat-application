@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+#background
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;    
+}
+#photo
+{
+    position: absolute;
+    display: flex;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-size: cover;
+    filter: brightness(0.3) blur(10px); 
+}
+#content
+{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+#top
+{
+    width: 100%;
+    height: 10%;
+}
+#middle
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+#chatbox
+{
+    width: 75%;
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.918);
+    border: 1px solid rgba(255, 255, 255, 0.245);
+}
+#message
+{
+    width: 100%;
+    height: 90%;
+    border-bottom:1px solid rgba(255, 255, 255, 0.245) ;
+}
+#sent 
+{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 10%;
+}
+#your_message
+{
+    width: 95%;
+    height: 100%;
+}
+#button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0.249);
+    transition-duration: 400ms;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#button:hover
+{
+    background-color: rgba(0, 255, 255, 0.647);
+    color: black;
+    cursor: pointer;
+}
+#on_line
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    margin-left: 2%;
+    background-color:rgba(31, 31, 31, 0.918);
+    border: 1px solid rgba(255, 255, 255, 0.245);
+}
+#menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border-bottom:1px solid rgba(255, 255, 255, 0.245);
+}
+#menu a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
+    transition-duration: 400ms;
+}
+#menu a:hover
+{
+  color: aqua;
+  border: 1px solid aqua;
+  cursor: pointer;
+}
+#roomorpeople
+{
+    width: 100%;
+    height: 90%;
+}
+#section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height: 10%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.245);
+}
+#status
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: green;
+}
+#nick
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    height: 100%;
+}
+#bottom
+{
+    width: 100%;
+    height: 10%;
+}
+
