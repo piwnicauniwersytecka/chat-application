@@ -7,5 +7,6 @@ dynamic chat application
 - vue-router
 - sass
 - Express.js
+- socket.io
 - JWT
 - MySQL
